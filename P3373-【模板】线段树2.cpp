@@ -11,7 +11,7 @@ struct node
     ll l, r;
     ll lazy1, lazy2; //乘法，加法
     ll len;
-} tree[400010];
+} tree[800010];
 int n, m, p;
 int val[MAXN + 10];
 int mode, x, y, k;
