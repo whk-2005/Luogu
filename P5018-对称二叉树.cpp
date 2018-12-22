@@ -25,7 +25,7 @@ inline int read()
     return x * f;
 }
 
-inline void dfs(int u)
+void dfs(int u)
 {
     size[u] = 1;
     if (son[u][0] != -1)
@@ -58,8 +58,9 @@ int main()
         son[i][0] = read(), son[i][1] = read();
     dfs(1);
     for (int i = 1; i <= n; i++)
-        if (ans < size[i] && check(son[i][0], son[i][1]))
-            ans = size[i];
+        if (ans < size[i])
+            if (check(son[i][0], son[i][1]))
+                ans = size[i];
     printf("%d\n", ans);
     return 0;
 }
