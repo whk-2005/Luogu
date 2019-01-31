@@ -5,6 +5,10 @@
         "deque": "cpp",
         "initializer_list": "cpp",
         "vector": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "list": "cpp",
+        "xtree": "cpp",
+        "limits": "cpp",
+        "iostream": "cpp"
     }
 }
