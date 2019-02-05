@@ -9,6 +9,9 @@
         "list": "cpp",
         "xtree": "cpp",
         "limits": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "cstdlib": "cpp"
     }
 }

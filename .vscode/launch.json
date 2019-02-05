@@ -21,7 +21,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\gdb32\\bin\\gdb32.exe",
             "setupCommands": [

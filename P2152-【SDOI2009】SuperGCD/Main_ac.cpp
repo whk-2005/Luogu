@@ -27,10 +27,10 @@ struct node
         int length = strlen(st);
         for (int i = 0; i < length; i++)
         {
-            int j = (length - i + 3) / 4;
+            int j = (length - i + 5) / 6;
             a[j] = a[j] * 10 + st[i] - '0';
         }
-        len = (length + 3) / 4;
+        len = (length + 5) / 6;
     }
 };
 
@@ -53,7 +53,7 @@ node sub(node &a, node &b)
     {
         no.a[i] = a.a[i] - b.a[i] - carry;
         carry = no.a[i] < 0;
-        no.a[i] += 10000 * carry;
+        no.a[i] += 1000000 * carry;
     }
     for (i = no.len; no.a[i] == 0 && i > 1; i--)
         ;

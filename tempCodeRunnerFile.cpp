@@ -1,24 +1,28 @@
+#include <algorithm>
+#include <bitset>
+#include <cctype>
+#include <cmath>
+#include <cstdio>
+#include <cstring>
+#include <deque>
 #include <iostream>
+#include <list>
+#include <map>
+#include <queue>
+#include <set>
+#include <stack>
 #include <string>
+#include <vector>
 
 using namespace std;
 
+typedef long long ll;
+
+int a, b;
+
 int main()
 {
-    system("chcp");
-    cout << "是否更改" << endl;
-    string in;
-    cin >> in;
-    if (in == "no")
-        return 0;
-    else
-    {
-        string s;
-        if (in == "gbk")
-            s = "chcp 936";
-        if (in == "utf8")
-            s = "chcp 65001";
-        system(s.c_str());
-    }
+    cin >> a >> b;
+    cout << __gcd(a, b) << endl;
     return 0;
 }
