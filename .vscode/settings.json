@@ -12,6 +12,19 @@
         "iostream": "cpp",
         "xiosbase": "cpp",
         "xlocale": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "exception": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "map": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "queue": "cpp",
+        "set": "cpp",
+        "stack": "cpp",
+        "streambuf": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "type_traits": "cpp"
     }
 }
