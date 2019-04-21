@@ -5,12 +5,11 @@
             "intelliSenseMode": "clang-x64",
             "includePath": [
                 "${workspaceFolder}",
-                "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include\\c++",
-                "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include\\c++\\x86_64-w64-mingw32",
-                "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include\\c++\\backward",
-                "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include",
-                "C:\\TDM-GCC-64\\x86_64-w64-mingw32\\include",
-                "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include-fixed"
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include\\cliext",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include\\CodeAnalysis",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include\\experimental",
+                "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include\\thr"
             ],
             "defines": [
                 "_DEBUG",
@@ -21,17 +20,14 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include\\c++",
-                    "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include\\c++\\x86_64-w64-mingw32",
-                    "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include\\c++\\backward",
-                    "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include",
-                    "C:\\TDM-GCC-64\\x86_64-w64-mingw32\\include",
-                    "C:\\Program Files (x86)\\CodeBlocks\\MinGW\\5.1.0\\include-fixed"
+                    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include",
+                    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include\\cliext",
+                    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include\\CodeAnalysis",
+                    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include\\experimental",
+                    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\include\\thr"
                 ]
             },
-            "limitSymbolsToIncludedHeaders": true,
-            "databaseFilename": "",
-            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe"
+            "compilerPath": "C:\\Program Files\\LLVM\\bin\\clang++.exe"
         }
     ],
     "version": 4
